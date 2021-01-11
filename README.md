@@ -27,7 +27,7 @@ Only apple_set_os.efi is used in this case.
 ### Notes:
 * There is no need to compile a new DSDT for MBP 16', they don't need that extra QWordMemory. Just use Clover to open the EFI partition and install automate-eGPU for MBP 16'.
 * Disable T2 security on MBP 16'.
-* If you are building your own dsdt and came across compiling errors, use WinMerge to copy the conflicting segments of the code inside my .dsl to yours.
+* If you are building your own dsdt and came across compiling errors, use WinMerge to replace the conflicting segments of your .dsl with mine.
 
 ### Main issues found:
 1. Error 12 (fixed)
